@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "streamlit-kafka"
+version = "0.1.0"
+description = ""
+authors = ["hmaiajunior <juniorce04@gmail.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+faker = "^37.1.0"
+streamlit = "^1.45.0"
+confluent-kafka = "^2.10.0"
+pandas = "^2.2.3"
+python-dotenv = "^1.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
